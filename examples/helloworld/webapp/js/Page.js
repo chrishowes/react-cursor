@@ -1,8 +1,8 @@
 /** @jsx React.DOM */
 var _      = require('underscore');
-var React  = require('react/addons');
-var Cursor = require('../../../../src/react-cursor').Cursor;
-var ImmutableOptimizations = require('../../../../src/react-cursor').ImmutableOptimizations;
+//var React  = require('react/addons');
+var Cursor = Cursor.Cursor;
+var ImmutableOptimizations = Cursor.ImmutableOptimizations;
 
 'use strict';
 

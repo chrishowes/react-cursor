@@ -23,7 +23,10 @@ module.exports = function (grunt) {
           dest: './dist/react-cursor.js',
 
           options: {
-            external: ['react/addons', 'underscore']
+            external: ['react/addons', 'underscore'],
+            browserifyOptions: {
+              standalone: 'Cursor'
+            }
           }
         },
 
@@ -33,7 +36,10 @@ module.exports = function (grunt) {
 
           options: {
             external: ['react/addons', 'underscore'],
-            transform: [uglifyify]
+            transform: [uglifyify],
+            browserifyOptions: {
+              standalone: 'Cursor'
+            }
           }
         },
 

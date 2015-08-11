@@ -19,7 +19,8 @@ module.exports = function (grunt) {
       },
 
       options: {
-        transform: [reactify]
+        transform: [reactify],
+        external: ['../../../../src/react-cursor']
       }
     },
 
